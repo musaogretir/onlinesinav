@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+		font-family: "century gothic";
+		src: url(font/GOTHIC.ttf);
+}
+body{background:url(../img/texture.png) repeat}
+#cerceve{width:1100px;height:auto;border-radius:10px;margin:auto;background:#111;padding:3px;}
+#cerceve *{font-family:"century gothic";}
+#ust{width:1100px;height:120px;border-radius:10px;position:relative;cursor:pointer;}
+#banner{position:absolute;top:0px;font-size:24px;padding:20px 0px 10px 30px;color:#FFF;text-shadow: 0 0 0.2em #FFF}
+#tarihSaat{position:absolute;top:0px;left:350px;font-size:14px;padding:20px 0px 10px 30px;color:#FC0;cursor:default;}
+#kullaniciBilgisi{position:absolute;top:0px;left:550px;font-size:14px;padding:20px 0px 10px 30px;color:#00CCFF;cursor:default}
+#aktifYilveDonem{position:absolute;top:0px;left:700px;font-size:14px;padding:20px 0px 10px 30px;color:#99FFFF;cursor:default}
+#aktifYilveDonem b{display:block;font-weight:normal;font-size:14px;}
+#oturumSuresi{position:absolute;top:0px;left:950px;font-size:14px;padding:20px 0px 10px 30px;color:#99CC00;cursor:default}
+#menuContainer{position:absolute;bottom:0px}
+#icerik{width:1100px;height:auto;padding:20px 0px 20px 0px;background-color:#f2f2f2;border-radius:10px;margin-top:3px;background:url(../img/grid.png) repeat;}
+#logo{background:url(../img/bg.png) no-repeat;width:400px;height:400px;margin:auto;}
+.icBaslik{display:block}
+.yukleniyor{margin:120px auto auto auto;;width:140px}
+.yukleniyor>span{display:block}
+.bekleyiniz{margin:10px auto auto auto;font-size:12px}
+.bekleyiniz>span{display:block}
+
+/*clock*/
+div#tarihSaat div.clock ul { width:170px; margin:0 auto; padding:0px; list-style:none; text-align:center; }
+div#tarihSaat div.clock ul li { display:inline; font-size:14px; text-align:center;text-shadow:0 0 5px #00c6ff; }
+/*clock*/
+
+#altSayfaContainer{width:1040px;height:auto;border:10px solid #014464;border-radius:10px;margin:0px 0px 0px 20px}
+.altSayfaBolum{width:1040px;height:auto;}
+.altSayfaBaslikSeviye1{background-color:#99CC00;font-weight:700;padding:10px}
+.altSayfaBaslikSeviye2{background-color:#014464;font-size:14px;font-weight:300;color:#FFF;padding:10px}
+.altSayfaFormAlani{width:1020px;height:auto;margin-left:20px;margin-bottom:50px}
+.altSayfaFormAlaniBilgiSatiri{width:1010px;height:40px;padding:5px}
+.altSayfaFormAlaniBilgiSatiri>div{float:left;}
+.altSayfaFormSoruAlani{width:160px;height:30px;padding:10px 0px 5px 0px;text-align:right;font-size:14px;font-weight:bold}
+.altSayfaFormCevapAlani{width:350px;height:30px;padding:5px 0px 5px 0px;}
+.altSayfaFormCevapAlani>input{width:300px;padding:3px;margin-left:5px}
+.altSayfaFormCevapAlani>input:focus{border:3px solid #0CF}
+.altSayfaFormCevapAlani>textarea{width:300px;padding:3px;margin-left:5px;resize:none}
+.altSayfaFormCevapAlani>textarea:focus{border:3px solid #0CF}
+.altSayfaFormCevapAlani>select{width:310px;padding:3px;margin-left:5px}
+.altSayfaFormAciklamaAlani{width:500px;height:30px;padding:10px 0px 5px 0px;color:#C00;font-size:14px;}
+.altSayfaButonAlani{width:317px;height:50px;margin-left:160px;position:relative;}
+.altSayfaButonAlani>div{float:left;cursor:pointer;opacity:0.5}
+.altSayfaButonAlani>div:hover{opacity:1}
+.altSayfaButonAlani>div a{text-decoration:none;}
+.altSayfaButonAlani>div a:hover{text-decoration:underline;}
+.altSayfaButonAlani .btnOnay{width:140px;height:35px;text-align:right;position:absolute;right:150px;top:0px;border:5px solid #666;border-radius:10px;margin-right:15px;background-color:#99CC00;font-weight:bold}
+.altSayfaButonAlani .btnOnay span.img{position:absolute;top:2px;left:2px}
+.altSayfaButonAlani .btnOnay span.text{position:absolute;top:8px;left:40px;}
+.altSayfaButonAlani .btnOnay span.text>a{color:#000}
+.altSayfaButonAlani .btnIptal{width:140px;height:35px;text-align:right;position:absolute;right:0px;top:0px;border:5px solid #666;border-radius:10px;background-color:#CC0033;font-weight:bold}
+.altSayfaButonAlani .btnIptal span.img{position:absolute;top:2px;left:2px}
+.altSayfaButonAlani .btnIptal span.text{position:absolute;top:8px;left:40px;color:#FFF}
+.altSayfaButonAlani .btnIptal span.text>a{color:#FFF}
+/*Kullanıcı Yetkilendirme*/
+.liste{margin:0px 0px 20px 95px;width:900px;height:300px;border:5px solid #ccc;border-radius:10px}
+.sutun{width:174px;height:auto;padding:3px;float:left}
+.sutun>ul{margin:0;padding:0}
+.sutun>ul>li{list-style-type:none;display:block;font-size:13px;font-weight:bold}
+.sutun>ul>li>ul{margin:5px 0px 0px 10px;padding:5px}
+.sutun>ul>li>ul>li{list-style-type:none;display:block;font-size:10px;font-weight:normal}
+/*Kullanıcı Yetkilendirme*/
+
+
+.temizle{clear:both}
+#gizliBolum_5,#gizliBolum_7,#gizliBolum_8,#gizliBolum_8_1,#gizliBolum_9,#gizliBolum_10,#soruListesi_8,#gizliBolum_30{display:none}
+
+.tabloListe{border:1px solid #000;}
+.tabloListe tr{height:30px;}
+.tabloListe td{border:1px solid #CCC;padding:5px}
+.progress { position:relative; width:400px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+.bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+.percent { position:absolute; display:inline-block; top:3px; left:48%; }
+
+#btn_ogrenciListesiKaydet_2{padding:5px;width:150px;border:5px solid #666;border-radius:10px;text-align:center;background-color:#99CC00;opacity:0.5;font-weight:bold}
+#btn_ogrenciListesiKaydet_2:hover{opacity:1}
+
+#btn_ogrenciListesiKaydet_5{padding:5px;width:150px;border:5px solid #666;border-radius:10px;text-align:center;background-color:#99CC00;opacity:0.5;font-weight:bold}
+#btn_ogrenciListesiKaydet_5:hover{opacity:1}
+#dersAlani_5,#soruTuruAlani_5{display:none}
+
+#btn_ogrenciListesiKaydet_30{padding:5px;width:150px;border:5px solid #666;border-radius:10px;text-align:center;background-color:#99CC00;opacity:0.5;font-weight:bold}
+#btn_ogrenciListesiKaydet_30:hover{opacity:1}
+
+.listeBolum_33{width:1000px;height:auto;margin:20px;border:5px solid #ccc;border-radius:10px}
+.listeBolumBaslik_33{background-color: #014464;font-size: 14px;font-weight: 300;color: #FFF;padding: 10px;margin-bottom:2px;cursor:pointer}
+.listeBolumBaslik_33:hover{text-decoration:underline;font-weight:600}
+.listeBolumIcerik_33{display:none}
+.tablo_33{border:1px solid #000;width:500px;margin:10px auto 10px auto;}
+.tablo_33 tr{height:30px;}
+.tablo_33 td{border:1px solid #CCC;padding:5px}
+.tablo_33 tr.red{background-color:#C06;color:#FFF}
+.tablo_33 tr.green{background-color:#093;color:#FFF}
+
+.sorularListe{list-style-type:none;margin:20px;padding:5px;border:1px solid #000;border-radius:10px;background-color:#014464;color:#FFF}
+.sorularListe ul{margin:5px 0px 5px 5px;padding:3px;border:1px solid #666;border-radius:10px;list-style-type:none;background-color:#FFF;color:#000}
+.sorularListe ul:hover{background-color:#CCC;cursor:pointer}
+.sorularListe .baslik{list-style-type:none;text-align:center;font-weight:bold;font-size:18px}
+.sorularListe .soru{list-style-type:none;font-weight:bold}
+.sorularListe .secenek{list-style-type:none;margin-left:15px;width:900px}
+.sorularListe .dogruCevap{list-style-type:none;font-weight:bold;color:#F00}
+.sorularListe .harf{width:30px;float:left}
+.sorularListe .metin{float:left}
+.sorularListe .btnTestKaydet{text-align:center;}
+
+#btn_test_Sorulari_Kaydet_5{padding:5px;width:150px;border:5px solid #666;border-radius:10px;text-align:center;background-color:#99CC00;opacity:0.5;font-weight:bold}
+#btn_test_Sorulari_Kaydet_5:hover{opacity:1}
+
+#btn_test_Sorulari_Sec_8{padding:5px;width:180px;border:5px solid #666;border-radius:10px;text-align:center;background-color:#99CC00;opacity:0.5;font-weight:bold}
+#btn_test_Sorulari_Sec_8:hover{opacity:1}
+
+#btn_sifre_Kaydet_10,#btn_Sinav_Degerlendirmesi_Kaydet_11,#yazdirBtn_12{padding:5px;width:180px;border:5px solid #666;border-radius:10px;text-align:center;background-color:#99CC00;opacity:0.5;font-weight:bold}
+#btn_sifre_Kaydet_10:hover,#btn_Sinav_Degerlendirmesi_Kaydet_11:hover,#yazdirBtn_12:hover{opacity:1}
+
+/*8.php soru seçimi*/
+.sec{background-color:#0C0 !important}
+.secilenSoruSayisi{width:80px;border:3px solid #333;border-radius:10px;background-color:#FFF;color:#F00;padding:10px;position:fixed;bottom:0;right:0;font-size:32px;font-weight:bold;text-align:center;display:none;}
+
+/*9.php oturma düzeni*/
+#oturmaDuzeniListe_9_container{padding:0px 0px 0px 60px}
+.ogrenciBilgi_9{width:120px;height:120px;margin:5px;border:1px solid #000;border-radius:10px;background-color:#FFF;float:left;}
+.siraNo_9{font-size:16px;font-weight:bold;text-align:center;margin:3px;color:#F00}
+.ad_9{padding:5px;font-size:11px;text-align:center}
+.no_9{padding:5px;font-size:11px;text-align:center}
+#btn_Oturma_Düzeni_Kaydet_9{padding:5px;width:200px;border:5px solid #666;border-radius:10px;text-align:center;background-color:#99CC00;opacity:0.5;font-weight:bold;}
+#btn_Oturma_Düzeni_Kaydet_9:hover{opacity:1}
+
+/*10.php*/
+.uyariContainer{padding:10px;border-bottom:5px solid #666;background-color:#C00;color:#FFF;font-size:16px;font-weight:bold;}
+.uyariContainer h3{text-align:center}
+input,select,textarea{outline:none}
+
+/*12.php*/
+#sinavRaporlari_12_container{margin-left:30px;}
+.raporTabloContainer{float:left;margin:10px;padding:5px;background-color:#FFF;page-break-after: always;page-break-inside: avoid;}
+.cevapTablosu{border:1px solid #000;font-size:11px;}
+.cevapTablosu tr{line-height:22px;}
+.cevapTablosu tr td{min-width:50px;border:1px solid #333}
+.cevapTablosu tr{line-height:22px;}
+
+/*34.php*/
+#sinavListesi_34{width:auto;height:auto;}
+#sinavlarim_34_container{width:1040px}
+.baslik_34{width:auto;height:30px;border-bottom:3px solid #000;background-color:#014464;color:#FFF;}
+.baslik_34>div{float:left;height:30px;text-align:center;font-size:14px;font-weight:bold;padding:5px 0px 0px 0px;}
+.satir_34{width:1040px;height:auto;border-bottom:1px solid #000;background-color:#f7f7f7;color:#000}
+.satir_34>div{float:left;padding:5px 0px 0px 0px;}
+.satir_34>div>a{float:left;text-decoration:none;padding:3px;background-color:#360;color:#FFF;border:1px solid #333;border-radius:5px;font-size:11px;margin:-4px 2px 0px 0px}
+.satir_34>div>a:hover{box-shadow:3px 3px 3px 4px #000}
+.altSayfaFormAlani34{width:1040px;height:auto;margin-bottom:50px}
+@media print { 
+    html, body { width:100%;height:100%;}
+    div.raporTabloContainer {height:100%; width:100%; display:inline;}
+	input{display:none}
+}
+
+#btn_yeniSifreTanimla_35{padding:5px;width:200px;border:5px solid #666;border-radius:10px;text-align:center;background-color:#99CC00;opacity:0.5;font-weight:bold;}
+#btn_yeniSifreTanimla_35:hover{opacity:1}

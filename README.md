@@ -1,2 +1,1 @@
 # onlinesinav
-Online Sınav Sistemi

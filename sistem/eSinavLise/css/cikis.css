@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@font-face {
+		font-family: "century gothic";
+		src: url(font/GOTHIC.ttf);
+}
+#disCerceve{width:1024px;height:790px;margin:0 auto;}
+#ustBaslik{width:1024px;height:38px;background:url(../img/cikis/ust.png) no-repeat;position:relative}
+#orta{width:1024px;height:auto;}
+#msg{width:534px;height:169px;font-family:Candara;font-size:60px;text-align:center;margin:20px auto 20px auto;}
+#btn{width:171px;height:46px;margin:20px auto auto auto;cursor:pointer}
+
+#b1,#b2{font-family: "century gothic";font-size:14px;position:absolute;color:#FFF;top:10px;}
+#b1{left:10px;}
+#b2{left:135px;}

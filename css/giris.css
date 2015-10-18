@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+		font-family: "century gothic";
+		src: url(font/GOTHIC.ttf);
+}
+*{font-family:"century gothic";}
+body{background:url(../img/grid.png);}
+#cerceve{width:510px;height:auto;border:1px solid #ccc;border-radius:10px;background-color:#f2f2f2;box-shadow:5px 5px 3px #000000;margin:30px auto}
+.baslik{font-size:30px;font-weight:800;text-align:center;margin:10px;color:#300}
+.aciklama{font-size:20px;font-weight:800;text-align:center;margin:10px;color:#C03}
+#icerik{height:auto}
+.bolum{width:500px;margin:5px}
+input[type='button']{width:500px;height:150px;border:5px solid #333;border-radius:10px;font-size:30px;font-weight:800;text-align:center;background-color:#9C3;cursor:pointer;}
+input[type='button']:hover{background-color:#903;color:#FFF}

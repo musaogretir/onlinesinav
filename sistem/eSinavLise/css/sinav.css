@@ -1,0 +1,72 @@
+@charset "utf-8";
+@font-face {
+		font-family: "century gothic";
+		src: url(font/GOTHIC.ttf);
+}
+
+#disCerceve{width:1024px;height:790px;margin:0 auto;}
+#ustBaslik{width:1024px;height:38px;}
+	#ustBaslik>div{float:left;height:38px}
+		.bilgiSatiri{font-family:"century gothic";font-size:14px;color:#FFF;padding:10px 5px 3px 5px}
+	#ub1{width:101px;background:url(../img/sablon/anaarayuz_r1_c1.png) no-repeat}
+	#ub2{width:29px;background:url(../img/sablon/anaarayuz_r1_c2.png) no-repeat}
+	#ub3{width:402px;background:url(../img/sablon/anaarayuz_r1_c4.png) no-repeat}
+	#ub4{width:122px;background:url(../img/sablon/anaarayuz_r1_c6.png) no-repeat}
+	#ub5{width:58px;background:url(../img/sablon/anaarayuz_r1_c11.png) no-repeat}
+	#ub6{width:113px;background:url(../img/sablon/anaarayuz_r1_c12.png) no-repeat}
+	#ub7{width:55px;background:url(../img/sablon/anaarayuz_r1_c13.png) no-repeat}
+	#ub8{width:29px;background:url(../img/sablon/anaarayuz_r1_c14.png) no-repeat}
+	#ub9{width:115px;background:url(../img/sablon/anaarayuz_r1_c15.png) no-repeat}
+#ustBaslikAlt{width:1024px;height:38px;;background:url(../img/sablon/anaarayuz_r2_c1.png) no-repeat}
+#sol{float:left;width:912px;height:654px}
+	#sol>div{float:left}
+	#s1{width:143px;height:38px;background:url(../img/sablon/anaarayuz_r3_c1.png) no-repeat}
+	#s2{width:389px;height:38px;background:url(../img/sablon/anaarayuz_r3_c5.png) no-repeat}
+	#s3{width:21px;height:38px;background:url(../img/sablon/anaarayuz_r3_c6.png) no-repeat}
+	#s4{width:159px;height:38px;background:url(../img/sablon/anaarayuz_r3_c8.png) no-repeat}
+	#s5{width:200px;height:38px;background:url(../img/sablon/anaarayuz_r3_c12.png) no-repeat}
+	#s6{width:116px;height:559px;background:url(../img/sablon/anaarayuz_r4_c1.png) no-repeat}
+	#soruAlani{width:596px;height:559px;background:url(../img/sablon/anaarayuz_r4_c3.png) no-repeat}
+		.soruTutucu{margin:5px;padding:5px;width:576px;height:auto;}
+			.soruNo{width:570px;padding:3px;font-family:"century gothic";font-size:14px;font-weight:bold;border-bottom:1px dotted #000;}
+			.soruMetni{width:570px;padding:3px;font-family:"century gothic";font-size:12px;}
+			.secenekTutucu{width:570px;padding:3px;font-family:"century gothic";font-size:12px;}
+				.secenekTutucu>.secenek{width:570px;padding:3px;font-family:"century gothic";font-size:12px;}
+				.secenekTutucu>.secenek>div{float:left;}
+				.secenekTutucu>.secenek>.harf{width:30px;text-align:center;font-size:14px;font-weight:bold;}
+				.secenekTutucu>.secenek>.secenek{width:540px;;height:30px;text-align:left;font-size:12px}
+			.butonTutucu{margin:5px;padding:5px;width:576px;height:50px;text-align:center}
+				.butonTutucu>.onceki{width:150px;height:35px;padding:5px;border:1px solid #ccc;border-radius:10px;background-color:#f2f2f2}
+				.butonTutucu>.sonraki{width:150px;height:35px;padding:5px;border:1px solid #ccc;border-radius:10px;background-color:#f2f2f2}
+				.butonTutucu>input:hover{background-color:#556a8b;color:#FFF;font-weight:bold;}
+			.soruNumaralari{margin:5px 0px 0px 5px;padding:5px;width:auto;height:auto;text-align:justify;}
+				.soruNumaralari>.numara{float:left;margin:2px;}
+					.soruNumaralari>.numara>a{font-family:"century gothic";font-size:20px;font-weight:bold;padding:5px 3px 2px 4px;text-decoration:none;background-color:#556a8b;color:#FFF;float:left;border:1px solid #000;border-radius:10px;width:30px;height:30px;}
+					.aktif{background-color:#903 !important}
+					.soruNumaralari>.numara>a:hover{background-color:#006699;color:#FFF;}
+	#cevapAlani{width:200px;height:559px;background:url(../img/sablon/anaarayuz_r4_c12.png) no-repeat;overflow:scroll}
+			#cevapAlani>.secenekTutucu{height:20px;width:187px;}
+				#cevapAlani>.secenekTutucu>.satir{width:auto;height:auto;margin-bottom:3px;border-bottom:1px solid #CCC;}
+				#cevapAlani>.secenekTutucu>.satir>.sn{width:35px;margin:2px auto 2px auto;float:left;text-align:left}
+				#cevapAlani>.secenekTutucu>.satir>.sec{width:30px;margin:2px auto 2px auto;float:left;text-align:center}
+					#cevapAlani>.secenekTutucu>.satir>.sec>img{border:none;cursor:pointer}
+	#s7{width:543px;height:41px;background:url(../img/sablon/anaarayuz_r5_c1.png) no-repeat}
+	#s8{width:94px;height:41px;}
+	#s9{width:1px;height:41px;background:url(../img/sablon/anaarayuz_r5_c9.png) no-repeat}
+	#s10{width:74px;height:41px;}
+	#s11{width:200px;height:41px;background:url(../img/sablon/anaarayuz_r5_c12.png) no-repeat}
+	#s12{width:912px;height:16px;background:url(../img/sablon/anaarayuz_r6_c1.png) no-repeat}
+#sag{float:left;width:112px;height:654px;background:url(../img/sablon/anaarayuz_r3_c16.png) no-repeat}
+
+.sinavBilgileri{width:1024px;margin-top:20px;border:5px solid #CCC;border-radius:10px;background-color:#303}
+.temizle{clear:both}
+.sutun{float:left;width:512px}
+.aciklama{font-size:36px;font-weight:bold;color:#9F0;height:150px}
+.bilgi{width:auto;height:40px;margin-top:10px;border-bottom:1px solid #CCC;text-align:left;font-family:"century gothic";display:block;float:none}
+.soru{width:200px;text-align:right;color:#CF3;float:left}
+.cevap{text-align:left;color:#FFF;float:left}
+.bekleyiniz{margin:10px auto auto auto;font-family:"century gothic";font-size:14px;}
+.bekleyiniz>span{display:block}
+.disari{font-family:"century gothic";font-size:14px;font-weight:bold;color:#F00;text-align:center;width:auto;height:400px;margin:20px;position:relative}
+.disari>a{padding:10px;border:3px solid #333;border-radius:10px;background-color:#960;color:#000;text-decoration:none;position:absolute;top:50px;left:200px}
+.disari>a:hover{background-color:#903;color:#FFF}

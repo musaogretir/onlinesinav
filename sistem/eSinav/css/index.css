@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+		font-family: "century gothic";
+		src: url(font/GOTHIC.ttf);
+}
+
+#cerceve{width:400px;height:650px;border:1px solid #ccc;border-radius:10px;margin:0px auto auto auto;background-color:#f3f3f3;box-shadow:#000 2px 2px 2px}
+#cerceve *{font-family:"century gothic";font-size:12px}
+#baslik{width:100%;padding:10px 1px 10px 0px;text-align:center;font-size:24px;border-radius:10px;;background-color:#556a8b;color:#FFF}
+#code{width:100%;height:70px;}
+#code>img{border:none;position:relative;left:150px;cursor:pointer;}
+.satir{width:100%;height:50px;}
+.soru{text-align:right;padding:10px;width:120px;float:left;font-weight:bold}
+.cevap{text-align:left;padding:8px;float:left;}
+.cevap>input{padding:3px;width:194px;outline:none}
+.cevap>input:focus{border:3px solid #3CF}
+.btn{width:100%;height:50px;}
+.btn>input[type="button"]{width:205px;font-weight:bold;padding:10px;position:relative;left:147px;background-color:#556a8b;color:#FFF;border:1px solid #556a8b;border-radius:5px;cursor:pointer;}
+.btn>input[type="button"]:hover{background-color:#728fbc}
+
+select{width:200px}
+
+#auList{background-color:#f2f2f2;position:absolute;z-index:9999;border-left:3px solid #3CF;border-right:3px solid #3CF;border-bottom:3px solid #3CF}
+#auList>ul{list-style-type:none;margin:0px;padding:0px;width:200px;}
+#auList>ul>li{line-height:30px;border-bottom:1px solid #999;font-size:10px;cursor:pointer}
+#auList>ul>li:hover{background-color:#069;color:#FFF}

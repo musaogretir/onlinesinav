@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex index.php
+
+RewriteRule ^index$ index.php
+RewriteRule ^sinav$ sinav.php
+RewriteRule ^cikis$ cikis.php

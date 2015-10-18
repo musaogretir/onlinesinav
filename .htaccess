@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex index.php
+
+RewriteRule ^index$ index.php
+RewriteRule ^sinavSistemiLise$ sistem/eSinavLise/index.php
+RewriteRule ^sinavSistemiMYO$  sistem/eSinav/sinav.php
