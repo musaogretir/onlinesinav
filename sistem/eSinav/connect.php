@@ -3,10 +3,10 @@
 	header("Content-Type: text/html; charset=utf-8");
     ini_set("display_errors",0);
   
-    $dbhost = "localhost";
-    $dbuser = "musaogre_es1";
-    $dbpass = "7&z*T57uuB@;";
-    $dbname = "musaogre_esinavmyo";
+     $dbhost = "localhost";
+    $dbuser = "...";
+    $dbpass = "...";
+    $dbname = "...";
     
     $baglan=mysql_connect($dbhost,$dbuser,$dbpass) or die("Geçersiz Host");
     
